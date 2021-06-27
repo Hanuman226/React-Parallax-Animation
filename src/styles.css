@@ -1,0 +1,19 @@
+*{
+  margin:0;
+  padding: 0;
+box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  overflow-x:hidden;
+}
+
+/* img{
+  max-width: 100%;
+  height: auto;
+  flex:0 1 25%;
+  padding: 1rem;
+  border-radius:8%;
+  filter: grayscale();
+} */
