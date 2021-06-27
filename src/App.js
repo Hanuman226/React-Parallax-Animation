@@ -150,13 +150,13 @@ const Container=styled.div`
 `;
 // first animation
 const Wrapper1 = styled.div`
-  height:150vh;
+height:150vh;
   /* scroll-snap-align: start; */
   /* overflow: hidden; */
   /* margin-top: 100vh; */
   /* margin-bottom: 100vh; */
   text-align:center;
-  background: black;
+  background: orange;
   position: relative;
 `;
 const Img1 = styled.img`
@@ -203,18 +203,18 @@ const Img2 = styled.img`
   /* filter: grayscale(); */
 `;
 const Wrapper2 = styled.div`
-  height: 100vh;
+  /* min-height: 100vh; */
   /* scroll-snap-align: start; */
   /* overflow-x:hidden; */
   /* overflow-y:scroll; */
   /* overflow: hidden; */
   /* margin-top: 100vh; */
-  /* margin-bottom: 100vh; */
+  margin-bottom: 100vh;
 /* &::-webkit-scrollbar{display:none}; */
   display: flex;
   flex-flow: column;
   align-items: center;
-  background: black;
+  background: orange;
   position: relative;
   /* &::before {
     content: "";
